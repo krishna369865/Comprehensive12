@@ -130,7 +130,7 @@ public class comprehensive extends reusablecomponents {
 		Thread.sleep(15000);
 		ReusableMethods.click(urbancollection.close, driver);
 		a.moveToElement(actels).build().perform();
-		Thread.sleep(20000);
+		Thread.sleep(10000);
 		ReusableMethods.click(urbancollection.outdoor, driver);
 		Log.info("Printing the price");
 		System.out.println(driver.findElement(By.xpath("//*[@id=\"content\"]/div[4]/div/ul/li[1]/div/div[3]/a/div[2]/span")).getText());
